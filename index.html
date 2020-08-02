@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets//css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+    <link rel="icon" href="./assets/images/logo.png">
+    <title>Tokopaedi</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+            <h1>Tokopa'edi</h1>
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-cart-plus"></i>
+                </span>
+                <div class="cart-items" id="total-cart">0</div>
+            </div>
+        </div>
+    </nav>
+    <header class="jumbotron">
+        <div class="banner">
+            <h1 class="banner-title">jual berbagai macam sembako</h1>
+            <a href="#shop"><button class="banner-btn">shop now</button></a>
+        </div>
+    </header>
+    <main>
+        <div id="content">
+            <article id="shop" class="card">
+                <section>
+                 <div class="section-title">
+                     <h2>PRODUK KAMI</h2>
+                 </div>
+                 <div class="products-center" id="dataProduct">
+                     
+                 </div>
+                </section>
+             </article>
+             <article class="card">
+                <div class="section-title">
+                    <center>
+                    <h2 id="cart-header">CART KOSONG</h2>
+                    <h2 id="total-harga"></h2>
+                    <table id="t01">
+                        <thead id="head-cart"></thead>
+                        <tbody id="data-cart"></tbody>
+                    </table>
+                    <label style="color: red" id="countDown"></label>
+                    <br>
+                    <table id="checkout"></table>
+                </center>
+                </div>
+             </article>
+        </div>
+    </main>
+    <footer>
+        <p>&#169 Tokopaedi 2020</p>
+        <p>Website Development by Harry Kurniawan</p>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
